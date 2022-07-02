@@ -17,6 +17,8 @@ struct ContentView: View {
                 .padding()
             Button(action: {
                 outputText = "changed button text !"
+                
+                print("change text:" + outputText)
             }) {
                 Text("Change Text")
                     .foregroundColor(Color.white)
