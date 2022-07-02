@@ -13,6 +13,13 @@ struct ContentView: View {
             Text(outputText)
                 .font(.largeTitle)
                 .padding()
+            Button(action: {
+            }) {
+                Text("Change Text")
+                    .foregroundColor(Color.white)
+                    .padding(.all)
+                    .background(Color.blue)
+            }
         }
     }
 }
